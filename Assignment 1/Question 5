@@ -36,7 +36,7 @@
         <p>This is a simple webpage that includes an image.</p>
         
         <!-- Image element with placeholder -->
-        <img src="my-image.jpg" alt="Placeholder Image">
+        <img src="Image.png" alt="Placeholder Image">
         
         <p>This is a placeholder image. In a real website, you would replace the src attribute with the path to your actual image file.</p>
         <p>For example: <code>&lt;img src="images/my-picture.jpg" alt="Description of the image"&gt;</code></p>
