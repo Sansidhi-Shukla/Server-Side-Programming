@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Question Paper for Summative Test-II</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.5;
+            margin: 30px;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 16px;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        .marks {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .instructions {
+            margin-bottom: 20px;
+        }
+        .instructions-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .section-title {
+            text-align: center;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        ol {
+            margin-top: 0;
+            padding-left: 25px;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .options {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .options li {
+            margin-bottom: 5px;
+        }
+        sup {
+            vertical-align: super;
+            font-size: smaller;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-style: italic;
+        }
+        .crossed {
+            text-decoration: line-through;
+            display: inline;
+        }
+        .normal {
+            display: inline;
+        }
+        hr {
+            border: 0.5px solid #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MODEL QUESTION PAPER FOR SUMMATIVE TEST-II</h1>
+        <h1>MATHEMATICS</h1>
+        <h1>CLASS-VIII</h1>
+    </div>
+
+    <div class="marks">
+        <p>Maximum Marks: 20</p>
+    </div>
+
+    <div class="instructions">
+        <p class="instructions-title">General instructions:</p>
+        <ol>
+            <li>All questions are compulsory</li>
+            <li>The question paper consist of 7 questions divided in to 2 sections A and B</li>
+            <li>Section A contains 4 question of 2 marks each</li>
+            <li>Section B contains 3 questions of 4 marks each</li>
+        </ol>
+    </div>
+
+    <div class="section-title">SECTION A</div>
+
+    <div class="question">
+        <p>Q1- What will be the product of (a<sup>2</sup>) x (2a<sup>22</sup>) x (4a<sup>26</sup>)</p>
+        <ul class="options">
+            <li>(a) 8a<sup>46</sup></li>
+            <li>(b) 8a<sup>48</sup></li>
+            <li>(c) 6a<sup>50</sup></li>
+            <li>(d) 8a<sup>50</sup></li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <p>Q2- Water is oxidised to oxygen by</p>
+        <ul class="options">
+            <li>(a) H<sub>2</sub>O<sub>2</sub></li>
+            <li>(b) KMnO<sub>4</sub></li>
+            <li>(c) ClO<sub>2</sub></li>
+            <li>(d) Fluorine</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p><span class="crossed">Cutting is Not Allowed</span> <span class="normal">Select Only one Option</span></p>
+    </div>
+    
+    <hr>
+</body>
+</html>
