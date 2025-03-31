@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML List: Ordered, Unordered & Definition List</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 20px;
+            padding: 0;
+            line-height: 1.5;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .heading {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        hr {
+            border: 1px solid #000;
+            margin: 15px 0;
+        }
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        ol {
+            margin-left: 30px;
+        }
+        ol li {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 30px;
+        }
+        ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        a {
+            color: navy;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .url {
+            color: purple;
+            display: block;
+            margin-top: 3px;
+            font-style: italic;
+        }
+        dl {
+            margin-left: 30px;
+        }
+        dt {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        dd {
+            margin-left: 40px;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML List: Ordered, Unordered & Definition List</h1>
+    <hr>
+    
+    <p>Following is the list of proposed student activities like:</p>
+    
+    <ol>
+        <li>Develop programs related with unit vice topics in computer laboratory.</li>
+        <li>Develop any module of to be useful in real life application.</li>
+        <li>Multimedia presentation of module developed by students.</li>
+    </ol>
+    
+    <hr>
+    
+    <p class="heading">List of Software/Learning Websites</p>
+    
+    <ul>
+        <li>
+            <a href="http://www.w3schools.com/asp">ASP Tutorial - W3Schools</a>
+            <span class="url">www.w3schools.com/asp</span>
+        </li>
+        <li>
+            <a href="http://www.webwiz.co.uk">Classic ASP Tutorials & Articles - Web Wiz</a>
+            <span class="url">www.webwiz.co.uk - Knowledgebase</span>
+        </li>
+        <li>
+            <a href="http://www.w3schools.com/html">HTML Tutorial - W3Schools</a>
+            <span class="url">www.w3schools.com/html</span>
+        </li>
+        <li>
+            <a href="http://www.csstutorial.net">CSS Tutorial</a>
+            <span class="url">www.csstutorial.net</span>
+        </li>
+        <li>
+            <a href="http://www.tutorialspoint.com/vbscript/index.htm">VBScript Tutorial - Tutorials Point</a>
+            <span class="url">www.tutorialspoint.com/vbscript/index.htm</span>
+        </li>
+        <li>
+            <a href="http://www.w3schools.com/ADO/default.asp">ADO Tutorial - W3Schools</a>
+            <span class="url">www.w3schools.com/ADO/default.asp</span>
+        </li>
+    </ul>
+    
+    <hr>
+    
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+        
+        <dt>XML</dt>
+        <dd>eXtensible Markup Language</dd>
+    </dl>
+</body>
+</html>
