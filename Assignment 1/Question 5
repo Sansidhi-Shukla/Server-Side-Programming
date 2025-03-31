@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Webpage</h1>
+        <p>This is a simple webpage that includes an image.</p>
+        
+        <!-- Image element with placeholder -->
+        <img src="my-image.jpg" alt="Placeholder Image">
+        
+        <p>This is a placeholder image. In a real website, you would replace the src attribute with the path to your actual image file.</p>
+        <p>For example: <code>&lt;img src="images/my-picture.jpg" alt="Description of the image"&gt;</code></p>
+    </div>
+</body>
+</html>
