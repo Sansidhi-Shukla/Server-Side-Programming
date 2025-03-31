@@ -1,0 +1,32 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/HelloServlet")
+public class HelloServlet extends HttpServlet {
+    
+    // Handles GET request
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        out.println("<h1>Hello, Welcome to Java Servlets!</h1>");
+    }
+
+    // Handles POST request
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        
+        String name = request.getParameter("name"); // Retrieve form data (if any)
+        
+        if (name == null || name.trim().isEmpty()) {
+            name = "Guest";
+        }
+
+        out.println("<h1>Hello, " + name + "! Welcome to Java Servlets.</h1>");
+    }
+}
