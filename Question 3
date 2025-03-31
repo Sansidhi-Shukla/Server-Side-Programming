@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Text Formatting Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        h1 {
+            color: #ff0000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 2px solid #333;
+        }
+        th {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border: 1px solid #333;
+            font-weight: bold;
+        }
+        td {
+            padding: 8px;
+            border: 1px solid #333;
+        }
+        .tag-column {
+            width: 50%;
+        }
+        .output-column {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Formatting Tags</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th class="tag-column">HTML Tag</th>
+                <th class="output-column">Output</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>normal text</td>
+                <td>hello world</td>
+            </tr>
+            <tr>
+                <td>Font & its attributes</td>
+                <td><span style="color: blue;">hello world</span></td>
+            </tr>
+            <tr>
+                <td>&lt;B&gt;</td>
+                <td><b>Bold</b></td>
+            </tr>
+            <tr>
+                <td>&lt;I&gt;</td>
+                <td><i>Italic</i></td>
+            </tr>
+            <tr>
+                <td>&lt;U&gt;</td>
+                <td><u>Underline</u></td>
+            </tr>
+            <tr>
+                <td>&lt;EM&gt;</td>
+                <td><em>Emphasis</em></td>
+            </tr>
+            <tr>
+                <td>&lt;STRONG&gt;</td>
+                <td><strong>STRONG</strong></td>
+            </tr>
+            <tr>
+                <td>&lt;CODE&gt;</td>
+                <td><code>Computer code</code></td>
+            </tr>
+            <tr>
+                <td>&lt;CITE&gt;</td>
+                <td><cite>Citation</cite></td>
+            </tr>
+            <tr>
+                <td>&lt;STRIKE&gt;</td>
+                <td><strike>strike through text</strike></td>
+            </tr>
+            <tr>
+                <td>&lt;BIG&gt;</td>
+                <td><big>text in a big font</big></td>
+            </tr>
+            <tr>
+                <td>&lt;SMALL&gt;</td>
+                <td><small>text in a small font</small></td>
+            </tr>
+            <tr>
+                <td>&lt;SUB&gt;</td>
+                <td>a<sub>b</sub></td>
+            </tr>
+            <tr>
+                <td>&lt;SUP&gt;</td>
+                <td>a<sup>b</sup></td>
+            </tr>
+            <tr>
+                <td>&lt;MARK&gt;</td>
+                <td><mark>Highlighted text</mark></td>
+            </tr>
+            <tr>
+                <td>&lt;DEL&gt;</td>
+                <td><del>Deleted text</del></td>
+            </tr>
+            <tr>
+                <td>&lt;INS&gt;</td>
+                <td><ins>Inserted text</ins></td>
+            </tr>
+            <tr>
+                <td>&lt;KBD&gt;</td>
+                <td><kbd>Keyboard input</kbd></td>
+            </tr>
+            <tr>
+                <td>&lt;PRE&gt;</td>
+                <td><pre>Preformatted text</pre></td>
+            </tr>
+            <tr>
+                <td>&lt;ADDRESS&gt;</td>
+                <td><address>Contact information</address></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
