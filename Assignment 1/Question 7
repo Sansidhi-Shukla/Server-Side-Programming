@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            gap: 20px;
+        }
+        .form-group > div {
+            flex: 1;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .checkbox-group {
+            display: flex;
+            gap: 15px;
+        }
+        .file-upload {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .reset-btn {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Registration Form</h1>
+    <form>
+        <!-- Name Section -->
+        <div class="form-group">
+            <div>
+                <label>First Name</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" required>
+            </div>
+        </div>
+
+        <!-- Address Section -->
+        <div class="form-group">
+            <div>
+                <label>Mail Address1</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>Mail Address2</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <!-- City/State Section -->
+        <div class="form-group">
+            <div>
+                <label>City</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>State</label>
+                <select>
+                    <option>Gujarat</option>
+                    <!-- Add more states as needed -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Zip/Photo Section -->
+        <div class="form-group">
+            <div>
+                <label>Zip</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label>Upload Photo</label>
+                <div class="file-upload">
+                    <button type="button">Browse</button>
+                    <span>No file selected.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="form-group">
+            <div>
+                <label>E-Mail</label>
+                <input type="email" required>
+            </div>
+            <div>
+                <label>Mobile</label>
+                <div style="display: flex;">
+                    <span style="padding: 8px; background: #eee">+91</span>
+                    <input type="tel" style="flex: 1">
+                </div>
+            </div>
+        </div>
+
+        <!-- Languages Section -->
+        <div class="form-group">
+            <div>
+                <label>Languages known</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" checked> Gujarati</label>
+                    <label><input type="checkbox" checked> Hindi</label>
+                    <label><input type="checkbox" checked> English</label>
+                    <label><input type="checkbox" checked> Marathi</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="form-group">
+            <div>
+                <label>Additional Information</label>
+                <textarea placeholder="Optional"></textarea>
+            </div>
+        </div>
+
+        <!-- Title Section -->
+        <div class="form-group">
+            <div>
+                <label>Title</label>
+                <div class="checkbox-group">
+                    <label><input type="radio" name="title"> Mr. </label>
+                    <label><input type="radio" name="title"> Mrs. </label>
+                    <label><input type="radio" name="title"> Ms. </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div style="text-align: center; margin-top: 20px;">
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
